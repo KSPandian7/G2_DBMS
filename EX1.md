@@ -22,37 +22,55 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
+```sql
+create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
+```
 
 ### OUTPUT:
+![Alt text](270861020-d4078461-29d3-4714-aa2b-d859b4552fa6.png)
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```sql
+alter table student add department char(30);
+```
 
 ### OUTPUT:
-
+![Alt text](270861141-2c22e52a-f697-4647-8c27-19b5dbb87d15.png)
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
+```sql
+drop table student;
+```
 
 ### OUTPUT:
-
+![Alt text](270861215-d0c90400-b82a-4d48-898f-1d18b60f2f8a.png)
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+```sql
+truncate table student;
+```
 
 ### OUTPUT:
-
+![Alt text](270861260-a7cf6059-f7e7-4b7f-9db9-8e45b0246324.png)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+```sql
+alter table student rename to mystudent;
+```
 
 ### OUTPUT:
+![Alt text](270861345-9d838847-3a92-4ec4-a2e6-a98d06085ad0.png)
+
+
+
+### RESULT:
+To create a student database and execute DDL queries using SQL is executed successfully.
